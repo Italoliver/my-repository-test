@@ -17,14 +17,16 @@ const booleano = true; // Boolean (true/false)
 let lista = [1, 2, 3]; // Array
 let objeto = { cor: "azul", motor: 2.0 }; // Object
 
-2. Operadores Matemáticos ➕
+##2. Operadores Matemáticos ➕
+
 let soma = 10 + 5;        // 15
 let subtracao = 10 - 5;   // 5
 let multiplicacao = 10 * 5; // 50
 let divisao = 10 / 2;     // 5
 let resto = 10 % 3;       // 1 (sobra da divisão)
 
-3. Estruturas Condicionais 🚦
+##3. Estruturas Condicionais 🚦
+
 Usadas para tomar decisões no código.
 let hora = 14;
 
@@ -36,7 +38,8 @@ if (hora < 12) {
     console.log("Boa noite! 🌙");
 }
 
-4. Estruturas de Repetição (Loops) 🔄
+##4. Estruturas de Repetição (Loops) 🔄
+
 Para executar o mesmo código várias vezes.
 // For: Sabendo o limite
 for (let i = 0; i < 5; i++) {
@@ -50,7 +53,8 @@ while (contador < 3) {
     contador++;
 }
 
-5. Funções ⚙️
+##5. Funções ⚙️
+
 Blocos de código que executam tarefas específicas.
 // Função clássica
 function saudar(nome) {
@@ -63,7 +67,8 @@ const somar = (a, b) => a + b;
 console.log(saudar("Ítalo"));
 console.log(somar(10, 20));
 
-6. Manipulação de Arrays (Listas) 📋
+##6. Manipulação de Arrays (Listas) 📋
+
 Os métodos mais usados no dia a dia:
 let frutas = ["Maçã", "Banana"];
 
@@ -71,7 +76,8 @@ frutas.push("Laranja"); // Adiciona ao fim
 frutas.pop();           // Remove o último
 frutas.forEach(f => console.log(f)); // Percorre a lista
 
-7. Manipulação do DOM (Web) 🌐
+##7. Manipulação do DOM (Web) 🌐
+
 Como o JavaScript interage com o HTML:
 // Selecionar um elemento
 const botao = document.querySelector("#meuBotao");
@@ -81,4 +87,4 @@ botao.addEventListener("click", () => {
     alert("Você clicou no botão! 🎉");
 });
 
-Documento criado por Italoliver ⚡
+###Documento criado por Italoliver ⚡
