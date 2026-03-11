@@ -18,7 +18,7 @@ let idade = 25;      // Number
 const booleano = true; // Boolean (true/false)
 let lista = [1, 2, 3]; // Array
 let objeto = { cor: "azul", motor: 2.0 }; // Object
-
+```
 ---
 
 ##2. Operadores Matemáticos ➕
