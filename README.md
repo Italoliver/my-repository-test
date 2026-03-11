@@ -33,7 +33,7 @@ let resto = 10 % 3;       // 1 (sobra da divisão)
 ```
 ---
 
-##3. Estruturas Condicionais 🚦
+## 3. Estruturas Condicionais 🚦
 
 ---
 ```javascript
@@ -50,7 +50,7 @@ if (hora < 12) {
 ```
 ---
 
-##4. Estruturas de Repetição (Loops) 🔄
+## 4. Estruturas de Repetição (Loops) 🔄
 
 ---
 ```javascript
@@ -69,10 +69,10 @@ while (contador < 3) {
 ```
 ---
 
-##5. Funções ⚙️
-```javascript
----
+## 5. Funções ⚙️
 
+---
+```javascript
 Blocos de código que executam tarefas específicas.
 // Função clássica
 function saudar(nome) {
@@ -87,7 +87,7 @@ console.log(somar(10, 20));
 ```
 ---
 
-##6. Manipulação de Arrays (Listas) 📋
+## 6. Manipulação de Arrays (Listas) 📋
 
 ---
 ```javascript
@@ -100,7 +100,7 @@ frutas.forEach(f => console.log(f)); // Percorre a lista
 ```
 ---
 
-##7. Manipulação do DOM (Web) 🌐
+## 7. Manipulação do DOM (Web) 🌐
 
 ---
 ```javascript
